@@ -7,4 +7,7 @@ function myFunction() {
     }
 }
 
-window.addEventListener('click', myFunction);
+let icon = document.querySelector('.icon');
+icon.addEventListener('click', myFunction);
+
+
